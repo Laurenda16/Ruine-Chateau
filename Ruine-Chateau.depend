@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1700148377 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1700148468 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1584205420 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\main.cpp
+	<iostream>
+
