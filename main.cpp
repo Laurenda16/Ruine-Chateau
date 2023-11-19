@@ -2,6 +2,11 @@
 
 using namespace std;
 
+
+
+void test1()
+{
+}
 int main()
 {
     cout << "Hello world!" << endl;
