@@ -32,11 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-<<<<<<< HEAD
-		<Unit filename="main.cpp" />
-		<Unit filename="personnage.cpp" />
-		<Unit filename="personnage.h" />
-=======
 		<Unit filename="equipement.cpp" />
 		<Unit filename="equipement.h" />
 		<Unit filename="main.cpp" />
@@ -44,7 +39,6 @@
 		<Unit filename="monstre.h" />
 		<Unit filename="monstreAveugle.cpp" />
 		<Unit filename="monstreAveugle.h" />
->>>>>>> cb29cdc182d0c3968023673fbfc5018b273587de
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
