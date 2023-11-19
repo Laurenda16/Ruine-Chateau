@@ -9,18 +9,18 @@ class monstre // : public personnage
 {
     public:
         monstre(int pointsDeVie, int pointsDeForce, int pctHabilite);
-        virtual void seDeplace();
+        void seDeplace() override; //Methode définie dans la classe personnage
 
-        int pointsDeVie() const;
-        int pointsDeForce() const;
+        int pointsDeVie() const override; //Methode définie dans la classe personnage
+        int pointsDeForce() const override; //Methode définie dans la classe personnage
         int pctHabilite() const;
 
-        void attaque(aventurier& aventurier);
-        void recoitAttaque(int pointsDeForce);
-        void mourir();
+        void attaque(aventurier& aventurier) override; //Methode définie dans la classe personnage
+        void recoitAttaque(int pointsDeForce) override; //Methode définie dans la classe personnage
+        void mourir() override; //Methode définie dans la classe personnage
 
     private:
-        int d_pointsDeVie, d_pointsDeForce, d_pctHabilite;
+        int d_pctHabilite;
 
 };
 
