@@ -3,10 +3,17 @@
 
 class equipement;
 
-class aventurier //: public personnage
+class aventurier : public personnage
 {
 public:
     aventurier(int pointsDeVie, int pointsDeForce, /*const bourse& b,*/ const epe& ep, const armure& arm);
+    void seDeplace (personnage& p) const override;
+    void attaque(personnage& p) const override;
+    void recoitAttaque(int pointsDeForce) const override;
+    void mourir() override;
+    void tueMonstre() const;
 private:
+    epe d_ep;
+    armure d_arm;
 };
 #endif // AVENTURIER_H
