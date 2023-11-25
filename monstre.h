@@ -3,7 +3,7 @@
 
 #include <cstdlib>
 
-//#include "aventurier.h"
+#include "aventurier.h"
 
 class monstre // : public personnage
 {

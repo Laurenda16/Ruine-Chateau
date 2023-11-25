@@ -52,12 +52,15 @@
 1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.cpp
 	"monstre.h"
 
-1700355700 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.h
+1700920863 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.h
 	<cstdlib>
+	"aventurier.h"
 
 1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.cpp
 	"monstreAveugle.h"
 
-1700355700 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.h
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.h
 	"monstre.h"
+
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\aventurier.h
 

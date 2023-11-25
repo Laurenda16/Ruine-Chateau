@@ -12,9 +12,9 @@ public:
     virtual ~personnage() = default;
     virtual int pointsDeVie() const;
     virtual int pointsDeForce() const;
-    virtual void seDeplace (personnage& p) = 0;
-    virtual void attaque(personnage& p) = 0;
-    virtual void recoitAttaque(int pointsDeForce) = 0;
+    virtual void seDeplace (personnage& p) const = 0;
+    virtual void attaque(personnage& p) const = 0;
+    virtual void recoitAttaque(int pointsDeForce) const = 0;
     virtual void mourir() = 0;
 
 private:
