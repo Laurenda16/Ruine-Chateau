@@ -7,7 +7,7 @@ class monstreAveugle : public monstre
 {
     public:
         monstreAveugle(int pointsDeVie, int pointsDeForce, int pctHabilite);
-        void seDeplace() override;
+        void seDeplace() override; //Methode définie dans la classe personnage
 
     private:
         int d_pointsDeVie, d_pointsDeForce, d_pctHabilite;

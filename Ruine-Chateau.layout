@@ -2,9 +2,34 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="equipement.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="266" topLine="0" />
+=======
+<<<<<<< HEAD
+	<File name="monstre.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+=======
+<<<<<<< HEAD
+	<File name="personnage.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="453" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="personnage.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="260" topLine="0" />
+=======
+	<File name="monstre.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> f43f6b490d43bec75b3e66befaaf84af3dd8389c
+		<Cursor>
+			<Cursor1 position="792" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="112" topLine="0" />
+>>>>>>> 246081f40b56f0099bd79bd1d16d769d59ae3415
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -12,9 +37,25 @@
 			<Cursor1 position="66" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="equipement.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="655" topLine="2" />
+=======
+	<File name="monstre.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="216" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="monstreAveugle.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+<<<<<<< HEAD
+			<Cursor1 position="290" topLine="0" />
+=======
+			<Cursor1 position="50" topLine="0" />
+>>>>>>> cb29cdc182d0c3968023673fbfc5018b273587de
+>>>>>>> f43f6b490d43bec75b3e66befaaf84af3dd8389c
+>>>>>>> 246081f40b56f0099bd79bd1d16d769d59ae3415
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
