@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1700148377 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1700148468 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1700245478 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\main.cpp
+	<iostream>
+
+1584205420 D
+
+1700310211 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1700310211 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\equipement.h
+	<istream>
+	<ostream>
+
+1700316893 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\main.cpp
+	<iostream>
+	"monstre.h"
+
+1700381707 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstre.h
+	<cstdlib>
+
+1700317027 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstre.cpp
+	"monstre.h"
+
+1700315663 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\terrain.cpp
+	"terrain.h"
+
+1700315672 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\terrain.h
+	<iostream>
+	<vector>
+	<string>
+	<ctime>
+
+1700316956 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1700378539 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstreaveugle.h
+	"monstre.h"
+
+1700315760 9cdc182d0c3968023673fbfc5018b273587de
+
+1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.cpp
+	"monstre.h"
+
+1700920863 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+
+1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\aventurier.h
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701859858 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\equipement.h
+	<istream>
+	<ostream>
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\main.cpp
+	<iostream>
+
+1701860176 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstre.cpp
+	"monstre.h"
+
+1701860312 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701860176 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701858049 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701858039 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstreaveugle.h
+	"monstre.h"
+
+1701860103 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\personnage.cpp
+	"personnage.h"
+
+1701860227 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\personnage.h
+
+1701857582 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\aventurier.cpp
+	"aventurier.h"
+
+1701857605 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701857595 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstrevoyant.h
+	"monstre.h"
+
