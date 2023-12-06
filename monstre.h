@@ -6,6 +6,8 @@
 #include "aventurier.h"
 #include"personnage.h"
 
+class personnage;
+
 class monstre : public personnage
 {
     public:

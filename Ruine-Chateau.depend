@@ -73,8 +73,9 @@
 	<istream>
 	<ostream>
 
-1701856487 source:d:\projet uha\qualité de programmation\ruine-chateau\main.cpp
+1701870384 source:d:\projet uha\qualité de programmation\ruine-chateau\main.cpp
 	<iostream>
+	"terrain.h"
 
 1701858251 source:d:\projet uha\qualité de programmation\ruine-chateau\monstreaveugle.cpp
 	"monstreAveugle.h"
@@ -83,12 +84,12 @@
 	"monstre.h"
 	"personnage.h"
 
-1701860398 d:\projet uha\qualité de programmation\ruine-chateau\monstre.h
+1701871450 d:\projet uha\qualité de programmation\ruine-chateau\monstre.h
 	<cstdlib>
 	"aventurier.h"
 	"personnage.h"
 
-1701860674 d:\projet uha\qualité de programmation\ruine-chateau\aventurier.h
+1701871301 d:\projet uha\qualité de programmation\ruine-chateau\aventurier.h
 	"personnage.h"
 	"equipement.h"
 
@@ -98,7 +99,7 @@
 1701856487 source:d:\projet uha\qualité de programmation\ruine-chateau\aventurier.cpp
 	"aventurier.h"
 
-1701859421 source:d:\projet uha\qualité de programmation\ruine-chateau\personnage.cpp
+1701860697 source:d:\projet uha\qualité de programmation\ruine-chateau\personnage.cpp
 	"personnage.h"
 
 1701858262 source:d:\projet uha\qualité de programmation\ruine-chateau\monstrevoyant.cpp
@@ -110,4 +111,19 @@
 
 1701860645 source:d:\projet uha\qualité de programmation\ruine-chateau\monstre.cpp
 	"monstre.h"
+
+1701870060 d:\projet uha\qualité de programmation\ruine-chateau\terrain.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<vector>
+
+1701870232 source:d:\projet uha\qualité de programmation\ruine-chateau\terrain.cpp
+	"terrain.h"
+
+1701865624 source:d:\projet uha\qualité de programmation\ruine-chateau\goto_xy_windows.cpp
+	<windows.h>
+	"goto_xy_windows.h"
+
+1701865624 d:\projet uha\qualité de programmation\ruine-chateau\goto_xy_windows.h
 

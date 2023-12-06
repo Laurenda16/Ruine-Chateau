@@ -15,6 +15,8 @@ public:
     void recoitAttaque(int pointsDeForce) override;
     void mourir() override;
     void tueMonstre() const;
+    void ramasser();
+
 private:
     epe d_ep;
     armure d_arm;
