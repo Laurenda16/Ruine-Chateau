@@ -1,8 +1,9 @@
 #ifndef PERSONNAGE_H
 #define PERSONNAGE_H
+#include<iostream>
 
-std::cout;
-std::cin;
+using std::cout;
+using std::cin;
 
 class personnage {
 
@@ -12,10 +13,11 @@ public:
     virtual ~personnage() = default;
     virtual int pointsDeVie() const;
     virtual int pointsDeForce() const;
+    int baissePointsDeForce(int pointsDeForce);
     virtual void seDeplace (personnage& p) const = 0;
-    virtual void attaque(personnage& p) const = 0;
-    virtual void recoitAttaque(int pointsDeForce) const = 0;
-    virtual void mourir() = 0;
+    virtual void attaque(personnage& p)  = 0;
+    virtual void recoitAttaque(int pointsDeForce)  = 0;
+    virtual void mourir();
 
 private:
     int d_pointsDeVie;

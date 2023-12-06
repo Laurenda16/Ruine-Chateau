@@ -64,3 +64,50 @@
 
 1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\aventurier.h
 
+1700383871 source:d:\projet uha\qualité de programmation\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701857305 d:\projet uha\qualité de programmation\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1701856487 source:d:\projet uha\qualité de programmation\ruine-chateau\main.cpp
+	<iostream>
+
+1701858251 source:d:\projet uha\qualité de programmation\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701858230 d:\projet uha\qualité de programmation\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+	"personnage.h"
+
+1701860398 d:\projet uha\qualité de programmation\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701860674 d:\projet uha\qualité de programmation\ruine-chateau\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701860407 d:\projet uha\qualité de programmation\ruine-chateau\personnage.h
+	<iostream>
+
+1701856487 source:d:\projet uha\qualité de programmation\ruine-chateau\aventurier.cpp
+	"aventurier.h"
+
+1701859421 source:d:\projet uha\qualité de programmation\ruine-chateau\personnage.cpp
+	"personnage.h"
+
+1701858262 source:d:\projet uha\qualité de programmation\ruine-chateau\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701858215 d:\projet uha\qualité de programmation\ruine-chateau\monstrevoyant.h
+	"monstre.h"
+	"personnage.h"
+
+1701860645 source:d:\projet uha\qualité de programmation\ruine-chateau\monstre.cpp
+	"monstre.h"
+

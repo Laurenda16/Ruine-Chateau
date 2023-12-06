@@ -31,7 +31,7 @@ void affiche(std::ostream & ost) const;
 class armure: public equipement
 {
 public:
-    amure(int pointDesolidite);
+    armure(int pointDesolidite);
         virtual int pointDeSolidite() const override ;
 
 //void perdreSolidite(int point) override;

@@ -2,12 +2,13 @@
 #define MONSTREVOYANT_H
 
 #include "monstre.h"
+#include"personnage.h"
 
 class monstreVoyant : public monstre
 {
     public:
         monstreVoyant(int pointsDeVie, int pointsDeForce, int pctHabilite);
-        void seDeplace() override;
+        void seDeplace(personnage& p) const override;
 
     private:
         int d_pointsDeVie, d_pointsDeForce, d_pctHabilite;

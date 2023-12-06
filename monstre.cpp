@@ -3,30 +3,22 @@
 monstre::monstre(int pointsDeVie, int pointsDeForce, int pctHabilite) : personnage{pointsDeVie, pointsDeForce}, d_pctHabilite{pctHabilite}
 {}
 
-void monstre::seDeplace()
+void monstre::seDeplace(personnage& p) const
 {
     //A faire
 }
 
-void monstre::attaque(aventurier& aventurier)
+void monstre::attaque(personnage& p)
 {
     // Calculer les dégâts avec une probabilité basée sur le pourcentage d'habilité
     if (rand() % 100 < d_pctHabilite) {
         int degats = pointsDeForce() * 0.9;
-        aventurier.recoitAttaque(degats);
+        p.recoitAttaque(degats);
     }
 }
 
-void monstre::recoitAttaque(int f)
+void monstre::recoitAttaque(int pointsDeForce)
 {
-    pointsDeForce() -= f;
-    if (pointsDeForce() <= 0)
-    {
-        mourir();
-    }
+    baissePointsDeForce(pointsDeForce);
 }
 
-void monstre::mourir()
-{
-    //A faire
-}
