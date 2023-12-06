@@ -108,3 +108,47 @@
 1701857595 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstrevoyant.h
 	"monstre.h"
 
+1701857582 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\aventurier.cpp
+	"aventurier.h"
+
+1701860176 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701860227 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.h
+
+1701859858 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\equipement.h
+	<istream>
+	<ostream>
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\main.cpp
+	<iostream>
+
+1701860176 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstre.cpp
+	"monstre.h"
+
+1701860312 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701858049 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701858039 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstreaveugle.h
+	"monstre.h"
+
+1701857605 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701857595 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstrevoyant.h
+	"monstre.h"
+
+1701860103 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.cpp
+	"personnage.h"
+
