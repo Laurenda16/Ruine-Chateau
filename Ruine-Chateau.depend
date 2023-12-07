@@ -152,3 +152,44 @@
 1701860103 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.cpp
 	"personnage.h"
 
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
+	"aventurier.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\monstre.cpp
+	"monstre.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.h
+	"monstre.h"
+
+1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
+	"personnage.h"
+
