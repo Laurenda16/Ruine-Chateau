@@ -16,13 +16,19 @@ int personnage::pointsDeForce() const
 int personnage::baissePointsDeForce(int pointsDeForce)
 {
     d_pointsDeForce -= pointsDeForce;
+
     if (d_pointsDeForce <= 0)
     {
-        mourir();
+        estmort();
     }
+    return d_pointsDeVie;
 }
 
-void personnage::mourir()
+bool personnage::estmort()
 {
-    //A faire
+   if(d_pointsDeVie==0)
+   {
+       return true;
+   }
+   else return false;
 }

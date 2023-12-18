@@ -12,10 +12,11 @@ class aventurier : public personnage
 public:
     aventurier(int pointsDeVie, int pointsDeForce, /*const bourse& b,*/ const epee& ep, const armure& arm);
     void seDeplace (personnage& p) const override;
-    void attaque(personnage& p) override;
+    void attaque(personnage& monstres) override;
     void recoitAttaque(int pointsDeForce) override;
-    void mourir() override;
-    void tueMonstre() const;
+    void recuperPointDeForce(const personnage& monstre);
+    bool estmort() ;
+
 private:
     epee d_ep;
     armure d_arm;
