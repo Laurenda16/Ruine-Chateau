@@ -152,23 +152,25 @@
 1701860103 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.cpp
 	"personnage.h"
 
-1702860058 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
+1702867631 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
 	"aventurier.h"
+	"equipement.h"
+	"personnage.h"
 	<iostream>
 	<vector>
 	<cstdlib>
 
-1702862221 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
+1702867674 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
 	"personnage.h"
 	"equipement.h"
 
-1702861307 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
+1702863523 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
 
-1701872517 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
+1702866461 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
 	<istream>
 	<ostream>
 
-1701872517 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
+1702866658 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
 	<istream>
 	<ostream>
 	"equipement.h"
@@ -179,7 +181,7 @@
 	<vector>
 	<cstdlib>
 
-1702861309 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
+1702863484 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
 	<cstdlib>
 	"aventurier.h"
 	"personnage.h"

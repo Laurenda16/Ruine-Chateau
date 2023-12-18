@@ -1,9 +1,13 @@
 #include "aventurier.h"
+#include "equipement.h"
+#include "personnage.h"
 #include <iostream>
 #include <vector>
 #include <cstdlib>
 
-//la methode attaque du personnage
+
+   /* aventurier::aventurier(int pointsDeVie, int pointsDeForce,const epee& ep, const armure& arm):personnage{pointsDeVie, pointsDeForce}, d_ep{ep}, d_arm{arm}{}*/
+/*la methode attaque du personnage*/
 /*
     void aventurier::attaque(personnage& monstre)
     {

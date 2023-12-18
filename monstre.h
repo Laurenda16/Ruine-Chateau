@@ -18,8 +18,8 @@ class monstre : public personnage
 
         int pctHabilite() const;
 
-        void attaque(personnage& p) override; //Methode définie dans la classe personnage
-        void recoitAttaque(int pointsDeForce) override; //Methode définie dans la classe personnage
+        void attaque(personnage& p) const override; //Methode définie dans la classe personnage
+        void recoitAttaque(int degats) const override; //Methode définie dans la classe personnage
 
         bool mort() ;
 
