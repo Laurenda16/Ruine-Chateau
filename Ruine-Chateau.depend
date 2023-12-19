@@ -1,0 +1,346 @@
+# depslib dependency file v1.0
+1700148377 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1700148468 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1700245478 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\main.cpp
+	<iostream>
+
+1584205420 D
+
+1700310211 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1700310211 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\equipement.h
+	<istream>
+	<ostream>
+
+1700316893 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\main.cpp
+	<iostream>
+	"monstre.h"
+
+1700381707 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstre.h
+	<cstdlib>
+
+1700317027 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstre.cpp
+	"monstre.h"
+
+1700315663 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\terrain.cpp
+	"terrain.h"
+
+1700315672 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\terrain.h
+	<iostream>
+	<vector>
+	<string>
+	<ctime>
+
+1700316956 source:c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1700378539 c:\users\lorri\onedrive\documents\l3\qualité de programmation\projet\programme\ruine-chateau-master\monstreaveugle.h
+	"monstre.h"
+
+1700315760 9cdc182d0c3968023673fbfc5018b273587de
+
+1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.cpp
+	"monstre.h"
+
+1700920863 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+
+1700355700 source:d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+
+1700918124 d:\amiage2023-2024\miage 2023-2024\semestre1\qualite de programmation\projet\ruine-chateau\aventurier.h
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701859858 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\equipement.h
+	<istream>
+	<ostream>
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\main.cpp
+	<iostream>
+
+1701860176 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstre.cpp
+	"monstre.h"
+
+1701860312 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701860176 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701858049 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701858039 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstreaveugle.h
+	"monstre.h"
+
+1701860103 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\personnage.cpp
+	"personnage.h"
+
+1701860227 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\personnage.h
+
+1701857582 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\aventurier.cpp
+	"aventurier.h"
+
+1701857605 source:c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701857595 c:\users\elève\documents\l3\qualité de programmation\projet\ruine-chateau-master\ruine-chateau-master\monstrevoyant.h
+	"monstre.h"
+
+1701857582 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\aventurier.cpp
+	"aventurier.h"
+
+1701860176 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1701860227 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.h
+
+1701859858 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\equipement.h
+	<istream>
+	<ostream>
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1701124787 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\main.cpp
+	<iostream>
+
+1701860176 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstre.cpp
+	"monstre.h"
+
+1701860312 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1701858049 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701858039 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstreaveugle.h
+	"monstre.h"
+
+1701857605 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701857595 c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\monstrevoyant.h
+	"monstre.h"
+
+1701860103 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.cpp
+	"personnage.h"
+
+1702867631 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
+	"aventurier.h"
+	"equipement.h"
+	"personnage.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702867674 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1702863523 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
+
+1702866461 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1702866658 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702861182 source:c:\users\lolo pc\desktop\ruine-chateau\monstre.cpp
+	"monstre.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702863484 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1702856575 source:c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+
+1702856583 source:c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.h
+	"monstre.h"
+
+1702861417 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
+	"personnage.h"
+
+1702997768 source:c:\users\lorri\downloads\ruine-chateau-master\aventurier.cpp
+	"aventurier.h"
+	"equipement.h"
+	"personnage.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702998756 c:\users\lorri\downloads\ruine-chateau-master\aventurier.h
+	"personnage.h"
+	"equipement.h"
+	"epee.h"
+	"armure.h"
+
+1702998585 c:\users\lorri\downloads\ruine-chateau-master\personnage.h
+	<iostream>
+
+1702998685 c:\users\lorri\downloads\ruine-chateau-master\equipement.h
+	<istream>
+	<ostream>
+
+1702998768 source:c:\users\lorri\downloads\ruine-chateau-master\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702998981 source:c:\users\lorri\downloads\ruine-chateau-master\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1702998965 c:\users\lorri\downloads\ruine-chateau-master\monstreaveugle.h
+	"monstre.h"
+
+1702998831 c:\users\lorri\downloads\ruine-chateau-master\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1702998944 source:c:\users\lorri\downloads\ruine-chateau-master\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1702998915 c:\users\lorri\downloads\ruine-chateau-master\monstrevoyant.h
+	"monstre.h"
+
+1702998586 source:c:\users\lorri\downloads\ruine-chateau-master\personnage.cpp
+	"personnage.h"
+
+1702998583 source:c:\users\lorri\downloads\ruine-chateau-master\terrain.cpp
+	"terrain.h"
+
+1702998579 c:\users\lorri\downloads\ruine-chateau-master\terrain.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<vector>
+	"personnage.h"
+
+1702997768 source:c:\users\lorri\downloads\ruine-chateau-master\armure.cpp
+	<istream>
+	<ostream>
+	"armure.h"
+
+1702997768 c:\users\lorri\downloads\ruine-chateau-master\armure.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702997768 source:c:\users\lorri\downloads\ruine-chateau-master\epee.cpp
+	<istream>
+	<ostream>
+	"epee.h"
+
+1702997768 c:\users\lorri\downloads\ruine-chateau-master\epee.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702999007 source:c:\users\lorri\downloads\ruine-chateau-master\main.cpp
+	<iostream>
+	"terrain.h"
+	"personnage.h"
+	"monstre.h"
+
+1702998864 source:c:\users\lorri\downloads\ruine-chateau-master\monstre.cpp
+	"monstre.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702997620 source:c:\users\lorri\downloads\ruine-chateau-master\maintest.cpp
+	"doctest.h"
+
+1702999012 c:\users\lorri\downloads\ruine-chateau-master\doctest.h
+	<signal.h>
+	<ciso646>
+	<cstddef>
+	<ostream>
+	<istream>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<unordered_set>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<string>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1702997620 source:c:\users\lorri\downloads\ruine-chateau-master\testruinechateau.cpp
+	"doctest.h"
+	"monstre.h"
+	"monstreVoyant.h"
+	"monstreAveugle.h"
+	"aventurier.h"
+
