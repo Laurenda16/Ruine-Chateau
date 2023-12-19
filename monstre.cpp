@@ -1,11 +1,12 @@
 #include "monstre.h"
 
-monstre::monstre(int pointsDeVie, int pointsDeForce, int pctHabilite) : personnage{pointsDeVie, pointsDeForce}, d_pctHabilite{pctHabilite}
+monstre::monstre(int pointsDeVie, int pointsDeForce, int x, int y, int pctHabilite) : personnage{pointsDeVie, pointsDeForce, x, y}, d_pctHabilite{pctHabilite}
 {}
 
-void monstre::seDeplace(personnage& p) const
+void monstre::seDeplace (int x_new, int y_new)
 {
-    //A faire
+    pos_x=x_new;
+    pos_y=y_new;
 }
 
 void monstre::attaque(personnage& p)
