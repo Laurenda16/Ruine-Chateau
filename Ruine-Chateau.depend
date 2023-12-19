@@ -344,3 +344,146 @@
 	"monstreAveugle.h"
 	"aventurier.h"
 
+1702999675 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\armure.cpp
+	<istream>
+	<ostream>
+	"armure.h"
+
+1702999675 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\armure.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\equipement.h
+	<istream>
+	<ostream>
+
+1702999675 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\aventurier.cpp
+	"aventurier.h"
+	"equipement.h"
+	"personnage.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702999675 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\aventurier.h
+	"personnage.h"
+	"equipement.h"
+	"epee.h"
+	"armure.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\personnage.h
+	<iostream>
+
+1702999675 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\epee.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702999675 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\epee.cpp
+	<istream>
+	<ostream>
+	"epee.h"
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702999839 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\main.cpp
+	<iostream>
+	"terrain.h"
+	"personnage.h"
+	"monstre.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\terrain.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<vector>
+	"personnage.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\maintest.cpp
+	"doctest.h"
+
+1702999752 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\doctest.h
+	<signal.h>
+	<ciso646>
+	<cstddef>
+	<ostream>
+	<istream>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<unordered_set>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<string>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstre.cpp
+	"monstre.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstreaveugle.h
+	"monstre.h"
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1702999676 c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\monstrevoyant.h
+	"monstre.h"
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\personnage.cpp
+	"personnage.h"
+
+1702999676 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\terrain.cpp
+	"terrain.h"
+
+1702999797 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\testruinechateau.cpp
+	"doctest.h"
+	"monstre.h"
+	"monstreVoyant.h"
+	"monstreAveugle.h"
+	"aventurier.h"
+

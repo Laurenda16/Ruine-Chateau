@@ -6,9 +6,11 @@
 
 #include "aventurier.h"
 
+/**!!Retirer le commentaire de la ligne 7085 du fichier doctest.h pour que les tests s'executent!!*/
+
 TEST_CASE("La classe aventurier est correcte")
 {
-
+    //A faire
 }
 
 TEST_CASE("La classe monstre est correcte")
@@ -55,17 +57,17 @@ TEST_CASE("La classe monstre est correcte")
 
     SUBCASE("Un monstre attaque correctement")
     {
-
+        //A faire
     }
 
     SUBCASE("Un monstre reçoit une attaque correctement")
     {
-
+        //A faire
     }
 
 }
 
 TEST_CASE("La classe equipement est correcte")
 {
-
+    //A faire
 }
