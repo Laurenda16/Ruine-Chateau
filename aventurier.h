@@ -1,27 +1,20 @@
 #ifndef AVENTURIER_H
 #define AVENTURIER_H
+#include "armure.h"
+#include "epee.h"
 
-#include "personnage.h"
-#include "equipement.h"
-
-class personnage;
-class equipement;
-
-class aventurier : public personnage
-{
+class aventurier {
 public:
-    aventurier(int pointsDeVie, int pointsDeForce,const epee& ep, const armure& arm); //fait
-    void seDeplace (personnage& p) const override; //deplacmenet
-    void attaque(personnage& monstres) const override;
-    void recoitAttaque(int degats) const override;
-
-    void recuperPointDeForce(const personnage& monstre);
-    /*void ramasse();*/
-    bool estmort() ;
+    aventurier(int pointsDeVie, int pointsDeForce, int bourse, epee &ep, armure &arm);
+    void setPosition(int x, int y);
+    void getPosition(int &x, int &y);
 
 private:
-   epee d_ep;
+    int d_pointsDeVie;
+    int d_pointsDeForce;
+    int bourse;
+    epee d_ep;
     armure d_arm;
-   // int d_boursePiece;*/
+    int d_x, d_y;
 };
 #endif // AVENTURIER_H

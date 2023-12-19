@@ -201,3 +201,52 @@
 1702861417 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
 	"personnage.h"
 
+1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.cpp
+	"aventurier.h"
+	"equipement.h"
+	"personnage.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1703012357 g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.h
+	"personnage.h"
+	"equipement.h"
+
+1703012358 g:\mon drive\semestre 5\qualite\ruine-chateau\personnage.h
+
+1703012357 g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.h
+	<istream>
+	<ostream>
+
+1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.cpp
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\monstre.cpp
+	"monstre.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1703012358 g:\mon drive\semestre 5\qualite\ruine-chateau\monstre.h
+	<cstdlib>
+	"aventurier.h"
+	"personnage.h"
+
+1703012358 source:g:\mon drive\semestre 5\qualite\ruine-chateau\monstreaveugle.cpp
+	"monstreAveugle.h"
+
+1703012358 g:\mon drive\semestre 5\qualite\ruine-chateau\monstreaveugle.h
+	"monstre.h"
+
+1703012358 source:g:\mon drive\semestre 5\qualite\ruine-chateau\monstrevoyant.cpp
+	"monstreVoyant.h"
+
+1703012358 g:\mon drive\semestre 5\qualite\ruine-chateau\monstrevoyant.h
+	"monstre.h"
+
+1703012358 source:g:\mon drive\semestre 5\qualite\ruine-chateau\personnage.cpp
+	"personnage.h"
+
