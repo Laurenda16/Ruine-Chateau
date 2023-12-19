@@ -15,6 +15,7 @@ public:
  void definirTerrain();
  void afficherTerrain() const;
  void placerPersonnage(personnage& p, int x, int y);
+ void deplacerPersonnage(personnage& p, int x_new, int y_new);
 
 private:
 std::vector<std::vector<char>> terr;

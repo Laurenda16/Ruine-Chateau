@@ -3,6 +3,16 @@
 monstre::monstre(int pointsDeVie, int pointsDeForce, int x, int y, int pctHabilite) : personnage{pointsDeVie, pointsDeForce, x, y}, d_pctHabilite{pctHabilite}
 {}
 
+int monstre::x() const
+{
+    return pos_x;
+}
+
+int monstre::y() const
+{
+    return pos_y;
+}
+
 void monstre::seDeplace (int x_new, int y_new)
 {
     pos_x=x_new;
@@ -21,5 +31,6 @@ void monstre::attaque(personnage& p)
 void monstre::recoitAttaque(int pointsDeForce)
 {
     baissePointsDeForce(pointsDeForce);
+    d_pointsDeVie -= d_pointsDeForce;
 }
 

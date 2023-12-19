@@ -65,8 +65,28 @@ void terrain::afficherTerrain() const{
         }
 }
 
-void terrain::placerPersonnage(personnage& p, int x, int y) {
+/*void terrain::placerPersonnage(personnage& p, int x, int y) {
         terr[x][y] = 'P';
         p.seDeplace(x, y);
          // 'P' représente le personnage sur la carte
-    }
+    }*/
+
+// Méthode pour placer un personnage sur le terrain
+void terrain::placerPersonnage(personnage& p, int x, int y) {
+
+        /*cout<<"Entrer x"<<std::endl;
+        cin>>x;
+        cout<<"Entrer y"<<std::endl;
+        cin>>y;*/
+
+        terr [x][y] = 'P'; // 'P' représente un personnage sur le terrain
+        p.seDeplace(x, y);
+}
+
+
+    // Méthode pour déplacer un personnage sur le terrain
+void terrain::deplacerPersonnage(personnage& p, int x_new, int y_new) {
+        terr[p.x()][p.y()] = '.'; // Efface l'ancienne position
+        terr[x_new][y_new] = 'P'; // Nouvelle position du personnage
+        p.seDeplace(x_new, y_new);
+}

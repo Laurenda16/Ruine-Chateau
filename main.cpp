@@ -13,8 +13,13 @@ void test1()
     t.initialiserTerrain();
     t.definirTerrain();
     t.afficherTerrain();
+    cout<<std::endl;
     monstre m{50,80,3,2,10};
-    t.placerPersonnage(m,5,3);
+    t.placerPersonnage(m,m.x(),m.y());
+    t.afficherTerrain();
+    cout<<std::endl;
+    t.deplacerPersonnage(m,m.x(),m.y()+1);
+    t.afficherTerrain();
 }
 
 int main()

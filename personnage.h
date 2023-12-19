@@ -24,8 +24,6 @@ public:
 protected:
     int pos_x;
     int pos_y;
-
-private:
     int d_pointsDeVie;
     int d_pointsDeForce;
 
