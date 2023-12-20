@@ -152,7 +152,7 @@
 1701860103 source:c:\users\elève\documents\l3\qualité de programmation\ruine-chateau-master backup\personnage.cpp
 	"personnage.h"
 
-1702867631 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\aventurier.cpp
 	"aventurier.h"
 	"equipement.h"
 	"personnage.h"
@@ -160,45 +160,48 @@
 	<vector>
 	<cstdlib>
 
-1702867674 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\aventurier.h
 	"personnage.h"
 	"equipement.h"
+	"epee.h"
+	"armure.h"
 
-1702863523 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
+1703060994 c:\users\lolo pc\desktop\ruine-chateau\personnage.h
+	<iostream>
 
-1702866461 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\equipement.h
 	<istream>
 	<ostream>
 
-1702866658 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\equipement.cpp
 	<istream>
 	<ostream>
 	"equipement.h"
 
-1702861182 source:c:\users\lolo pc\desktop\ruine-chateau\monstre.cpp
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\monstre.cpp
 	"monstre.h"
 	<iostream>
 	<vector>
 	<cstdlib>
 
-1702863484 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\monstre.h
 	<cstdlib>
 	"aventurier.h"
 	"personnage.h"
 
-1702856575 source:c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.cpp
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.cpp
 	"monstreAveugle.h"
 
-1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.h
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\monstreaveugle.h
 	"monstre.h"
 
-1702856583 source:c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.cpp
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.cpp
 	"monstreVoyant.h"
 
-1701872517 c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.h
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\monstrevoyant.h
 	"monstre.h"
 
-1702861417 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
+1703061351 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
 	"personnage.h"
 
 1702997768 source:c:\users\lorri\downloads\ruine-chateau-master\aventurier.cpp
@@ -481,6 +484,97 @@
 	"terrain.h"
 
 1702999797 source:c:\users\lorri\downloads\ruine-chateau-lorris\ruine-chateau-lorris\testruinechateau.cpp
+	"doctest.h"
+	"monstre.h"
+	"monstreVoyant.h"
+	"monstreAveugle.h"
+	"aventurier.h"
+
+1702902591 source:c:\users\lolo pc\desktop\ruine-chateau\armure.cpp
+	<istream>
+	<ostream>
+	"armure.h"
+
+1702902470 c:\users\lolo pc\desktop\ruine-chateau\armure.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702902485 c:\users\lolo pc\desktop\ruine-chateau\epee.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1702902593 source:c:\users\lolo pc\desktop\ruine-chateau\epee.cpp
+	<istream>
+	<ostream>
+	"epee.h"
+
+1703061860 source:c:\users\lolo pc\desktop\ruine-chateau\main.cpp
+	<iostream>
+	"terrain.h"
+	"personnage.h"
+	"monstre.h"
+
+1703060994 c:\users\lolo pc\desktop\ruine-chateau\terrain.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<vector>
+	"personnage.h"
+
+1703060993 source:c:\users\lolo pc\desktop\ruine-chateau\maintest.cpp
+	"doctest.h"
+
+1703060993 c:\users\lolo pc\desktop\ruine-chateau\doctest.h
+	<signal.h>
+	<ciso646>
+	<cstddef>
+	<ostream>
+	<istream>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<unordered_set>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<string>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1703060994 source:c:\users\lolo pc\desktop\ruine-chateau\terrain.cpp
+	"terrain.h"
+
+1703060994 source:c:\users\lolo pc\desktop\ruine-chateau\testruinechateau.cpp
 	"doctest.h"
 	"monstre.h"
 	"monstreVoyant.h"

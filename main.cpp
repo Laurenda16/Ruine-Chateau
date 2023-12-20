@@ -18,9 +18,9 @@ void test1()
 //Mettre ce main en commentaire et décommenter le main du fichier doctest.h (ligne 7085) pour executer les tests
 int main()
 {
-   /* terrain t{5,7};
-    t.genererTerrain();
-    t.afficherTerrain();*/
+   //terrain t{5,7};
+   // t.genererTerrain();
+   // t.afficherTerrain();
    test1();
    return 0;
 }

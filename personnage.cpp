@@ -31,7 +31,7 @@ void personnage::seDeplace (int x_new, int y_new)
 
 void personnage::mourir()
 {
-    cout<<" Vous êtes mort ! Peut mieux faire dans la prochaine vie, courage"<<std::endl;
+    cout<<" Vous etes mort ! Peut mieux faire dans la prochaine vie, courage"<<std::endl;
 }
 
 int personnage::baissePointsDeForce(int pointsDeForce)
