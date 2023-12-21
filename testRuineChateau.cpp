@@ -27,7 +27,7 @@ TEST_CASE("La classe monstre est correcte")
             REQUIRE_EQ(m.pctHabilite(), 75);
         }
 
-        SUBCASE("Un monstreVoyant se déplace correctement")
+        SUBCASE("Un monstreVoyant se dï¿½place correctement")
         {
             //A faire
         }
@@ -45,7 +45,7 @@ TEST_CASE("La classe monstre est correcte")
             REQUIRE_EQ(m.pctHabilite(), 25);
         }
 
-        SUBCASE("Un monstre aveugle se déplace correctement")
+        SUBCASE("Un monstre aveugle se dï¿½place correctement")
         {
             //A faire
         }
@@ -60,7 +60,7 @@ TEST_CASE("La classe monstre est correcte")
         //A faire
     }
 
-    SUBCASE("Un monstre reçoit une attaque correctement")
+    SUBCASE("Un monstre reï¿½oit une attaque correctement")
     {
         //A faire
     }
