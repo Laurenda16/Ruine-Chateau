@@ -22,6 +22,10 @@ private:
 
 /**la classe epe qui herite de la classe equipement*/
 
+
+
+/*
+>>>>>>> Lorris
 class epee:public equipement{
 public:
     epee(int pointDesolidite);
@@ -38,7 +42,11 @@ private:
 };
 
 
+<<<<<<< HEAD
 /**la classe armure qui herite de la classe equipement*/
+
+/**la classe armure qui herite de la classe equipement
+>>>>>>> Lorris
 
 
 class armure: public equipement
@@ -52,5 +60,9 @@ public:
     void affiche(std::ostream & ost) const ;
 private:
     int d_pointDeSolidite;
+<<<<<<< HEAD
 };
+=======
+};*/
+
 #endif //EQUIPEMENT_H

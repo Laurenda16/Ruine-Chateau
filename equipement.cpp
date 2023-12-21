@@ -19,6 +19,8 @@
 
 /**REDEFINTION EPEE*/
 
+/*
+>>>>>>> Lorris
 void epee::perdreSolidite()
  {
         if (estValide())
@@ -36,6 +38,10 @@ int epee::attaqueAvecEpee() {
         }
         return 0;
     }
+<<<<<<< HEAD
+
+=======
+*/
 
 
 
