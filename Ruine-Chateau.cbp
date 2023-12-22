@@ -32,8 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="armure.cpp" />
+		<Unit filename="armure.h" />
 		<Unit filename="aventurier.cpp" />
 		<Unit filename="aventurier.h" />
+		<Unit filename="epee.cpp" />
+		<Unit filename="epee.h" />
 		<Unit filename="equipement.cpp" />
 		<Unit filename="equipement.h" />
 		<Unit filename="main.cpp" />

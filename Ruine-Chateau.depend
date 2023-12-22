@@ -201,27 +201,20 @@
 1702861417 source:c:\users\lolo pc\desktop\ruine-chateau\personnage.cpp
 	"personnage.h"
 
-1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.cpp
+1703091933 source:g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.cpp
 	"aventurier.h"
-	"equipement.h"
-	"personnage.h"
-	<iostream>
-	<vector>
-	<cstdlib>
 
-1703012357 g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.h
-	"personnage.h"
-	"equipement.h"
+1703092728 g:\mon drive\semestre 5\qualite\ruine-chateau\aventurier.h
+	"armure.h"
+	"epee.h"
 
 1703012358 g:\mon drive\semestre 5\qualite\ruine-chateau\personnage.h
 
-1703012357 g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.h
+1703091129 g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.h
 	<istream>
 	<ostream>
 
-1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.cpp
-	<istream>
-	<ostream>
+1703091313 source:g:\mon drive\semestre 5\qualite\ruine-chateau\equipement.cpp
 	"equipement.h"
 
 1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\monstre.cpp
@@ -249,4 +242,25 @@
 
 1703012358 source:g:\mon drive\semestre 5\qualite\ruine-chateau\personnage.cpp
 	"personnage.h"
+
+1703015408 source:g:\mon drive\semestre 5\qualite\ruine-chateau\main.cpp
+	<iostream>
+
+1703092121 g:\mon drive\semestre 5\qualite\ruine-chateau\armure.h
+	"equipement.h"
+
+1703091102 g:\mon drive\semestre 5\qualite\ruine-chateau\epee.h
+	<istream>
+	<ostream>
+	"equipement.h"
+
+1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\armure.cpp
+	<istream>
+	<ostream>
+	"armure.h"
+
+1703012357 source:g:\mon drive\semestre 5\qualite\ruine-chateau\epee.cpp
+	<istream>
+	<ostream>
+	"epee.h"
 

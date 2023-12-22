@@ -4,19 +4,16 @@
 #include <ostream>
 #include "equipement.h"
 
-/**la classe epe qui herite de la classe equipement*/
+/**la classe epee qui herite de la classe equipement*/
 
-class epee:public equipement{
+class epee: public equipement{
 public:
     epee(int pointDesolidite);
     bool estValide() override;
-int pointDeSolidite() const override ;
-
-virtual void perdreSolidite() override;
-
-int attaqueAvecEpee();
-
-void affiche(std::ostream & ost) const;
+    int pointDeSolidite() const override ;
+    virtual void perdreSolidite() override;
+    int attaqueAvecEpee();
+    void affiche(std::ostream & ost) const;
 private:
     int d_pointDeSolidite;
 };
