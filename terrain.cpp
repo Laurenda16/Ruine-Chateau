@@ -4,42 +4,18 @@ terrain::terrain(int x, int y) : tailleX(x), tailleY(y) {
         initialiserTerrain();
     }
 
-/*void terrain::genererTerrain() {
-    // Initialisation de la graine pour la génération aléatoire
-    srand(time(nullptr));
-
-    // Remplissage du terrain avec des chemins libres ('.') et des murs ('#')
-    for (int i = 0; i < tailleX; ++i) {
-        for (int j = 0; j < tailleY; ++j) {
-            // Générer aléatoirement des murs avec une certaine probabilité
-            if (rand() % 100 < 30) { // Changer 30 pour modifier la densité des murs
-                terr[i][j] = '#';
-            } else {
-                terr[i][j] = '.'; // Chemin libre
-            }
-        }
-    }
-}*/
 void terrain::initialiserTerrain() {
 
     terr.resize(tailleX, std::vector<char>(tailleY, '.'));
     for (int i = 0; i < tailleX; ++i) {
         for (int j = 0; j < tailleY; ++j) {
             if (i == 0 || j == 0 || i == tailleX - 1 || j == tailleY - 1) {
-                terr[i][j] = '@'; // Cases inaccessibles à l'extérieur du château
+                terr[i][j] = '#'; // Cases inaccessibles à l'extérieur du château
             } else {
                 terr[i][j] = '.'; // Cases par défaut
-                 //terr[i][j] = '#';
             }
         }
     }
-
-    // Placement des murs dans le château
-    /*for (int i = 1; i < tailleX - 1; ++i) {
-        for (int j = 1; j < tailleY - 1; ++j) {
-                terr[i][j] = '#';
-            }
-        }*/
 
 }
 
@@ -64,14 +40,6 @@ void terrain::afficherTerrain() const{
             std::cout << std::endl;
         }
 }
-
-
-// Méthode pour placer un personnage sur le terrain
-/*void terrain::placerPersonnage(personnage& p, int x, int y) {
-
-        terr [x][y] = 'P'; // 'P' représente un personnage sur le terrain
-        p.seDeplace(x, y);
-}*/
 
 
 void terrain::placerPersonnage(personnage& p, int x, int y) {
