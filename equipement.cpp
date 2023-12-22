@@ -1,26 +1,25 @@
-
 #include <istream>
 #include <ostream>
 
 #include "equipement.h"
 
-/**EQUIPEMET*/
- equipement::equipement(int pointDeSolidite):d_pointDeSolidite{pointDeSolidite}{}
+/**EQUIPEMENT*/
 
- equipement::~equipement(){}
- int equipement::pointDeSolidite() const
- {
-     return d_pointDeSolidite;
- }
-   bool equipement::estValide()
-    {
-            return d_pointDeSolidite > 0;
-    }
+equipement::equipement(int pointsDeSolidite) : d_pointsDeSolidite{pointsDeSolidite}{}
+
+int equipement::pointsDeSolidite() const
+{
+    return d_pointsDeSolidite;
+}
+
+bool equipement::estValide()
+{
+    return d_pointsDeSolidite > 0;
+}
+
 
 /**REDEFINTION EPEE*/
-
 /*
->>>>>>> Lorris
 void epee::perdreSolidite()
  {
         if (estValide())
@@ -34,15 +33,11 @@ int epee::attaqueAvecEpee() {
 
         {
            perdreSolidite();
-            return pointDeSolidite();  // Retourne les points de solidité restants
+            return pointDeSolidite();  // Retourne les points de soliditï¿½ restants
         }
         return 0;
     }
-<<<<<<< HEAD
-
-=======
 */
-
 
 
 
@@ -54,11 +49,11 @@ int epee::attaqueAvecEpee() {
      if (estValide())
         {
             armure.perdreSolidite(pointsDeForce);
-            std::cout << "L'armure a absorbé une partie de l'attaque." << std::endl;
+            std::cout << "L'armure a absorbï¿½ une partie de l'attaque." << std::endl;
         } else {
-            // L'armure est cassée, l'attaque affecte directement la personne
-            // TODO: Gérer les points de vie de la personne ici
-            std::cout << "L'armure est cassée. L'attaque affecte directement la personne." << std::endl;
+            // L'armure est cassï¿½e, l'attaque affecte directement la personne
+            // TODO: Gï¿½rer les points de vie de la personne ici
+            std::cout << "L'armure est cassï¿½e. L'attaque affecte directement la personne." << std::endl;
         }
  }*/
 /*
@@ -66,7 +61,7 @@ void perdreSolidite()
 {
         if (estValide())
             {
-    // Réduire la solidité de l'armure en fonction des points de force de l'attaque
+    // Rï¿½duire la soliditï¿½ de l'armure en fonction des points de force de l'attaque
         pointsDeSolidite -= pointsDeForce / 2;
         if (pointDeSolidite < 0) {
         pointDeSolidite = 0;

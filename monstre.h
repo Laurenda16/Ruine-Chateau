@@ -9,26 +9,14 @@
 class monstre : public personnage
 {
     public:
-
-        monstre(int pointsDeVie, int pointsDeForce, double pctHabilite);
-
-
-
-        //int pointsDeVie() const override; //Methode définie dans la classe personnage
-        //int pointsDeForce() const override; //Methode définie dans la classe personnage
-
-
-
-
         monstre(int pointsDeVie, int pointsDeForce, int x, int y, int pctHabilite);
 
-        void seDeplace(int x_new, int y_new) override; //Methode définie dans la classe personnage
+        void seDeplace(int x_new, int y_new) override; //Methode dï¿½finie dans la classe personnage
 
-        double pctHabilite() const;
+        int pctHabilite() const;
 
-        void attaque(personnage& p) override; //Methode définie dans la classe personnage
-        void recoitAttaque(int degats) override; //Methode définie dans la classe personnage
-
+        void attaque(personnage& p) override; //Methode dï¿½finie dans la classe personnage
+        void recoitAttaque(int degats) override; //Methode dï¿½finie dans la classe personnage
 
         bool mort() ;
 

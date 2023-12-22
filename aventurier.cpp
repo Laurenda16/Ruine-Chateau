@@ -1,12 +1,27 @@
 #include "aventurier.h"
-#include "equipement.h"
-#include "personnage.h"
+
 #include <iostream>
 #include <vector>
 #include <cstdlib>
 
+aventurier::aventurier(int pointsDeVie, int pointsDeForce, int x, int y, const epee &ep, const armure &arm) : personnage{pointsDeVie, pointsDeForce, x, y}, d_ep{ep}, d_arm{arm}
+{
+}
 
-   /* aventurier::aventurier(int pointsDeVie, int pointsDeForce,const epee& ep, const armure& arm):personnage{pointsDeVie, pointsDeForce}, d_ep{ep}, d_arm{arm}{}*/
+void aventurier::seDeplace(int x_new, int y_new)
+{
+    pos_x = x_new;
+    pos_y = y_new;
+}
+
+void aventurier::attaque(personnage &monstre)
+{
+}
+
+void aventurier::recoitAttaque(int pointsDeForce)
+{
+}
+
 /*la methode attaque du personnage*/
 /*
     void aventurier::attaque(personnage& monstre)
@@ -14,13 +29,13 @@
         int forceAttaque = pointDeForce()+ pointDeSolidite;
         // Multiplication par 0.9
         forceAttaque = static_cast<int>(forceAttaque * 0.9);
-        // Application de la probabilité de 80%
+        // Application de la probabilitï¿½ de 80%
         if (rand() % 100 < 80) {
-            std::cout << "Attaque réussie ! Montant total de l'attaque : " << forceAttaque;
-            // Appliquer l'attaque au monstre (implémentation à ajouter)
+            std::cout << "Attaque rï¿½ussie ! Montant total de l'attaque : " << forceAttaque;
+            // Appliquer l'attaque au monstre (implï¿½mentation ï¿½ ajouter)
             monstre.recoitAttaque(montantAttaque);
         } else {
-            std::cout << "Attaque ratée !";
+            std::cout << "Attaque ratï¿½e !";
         }
         //verifier s'il est vivant ou non
 
@@ -34,15 +49,15 @@
     }
 
     }*/
-    /*
-  void aventurier::recuperPointDeForce(const personnage& monstre)
-  {
-    int quartPointsDeForceMonstre = monstre.pointsDeForces() / 4;
-        d_pointsDeForces += quartPointsDeForceMonstre;
+/*
+void aventurier::recuperPointDeForce(const personnage& monstre)
+{
+int quartPointsDeForceMonstre = monstre.pointsDeForces() / 4;
+    d_pointsDeForces += quartPointsDeForceMonstre;
 
-        int troisQuartsPointsDeVieMonstre = (3 * monstre.pointsDeForces()) / 4;
-        d_pointsDeVies += troisQuartsPointsDeVieMonstre;
+    int troisQuartsPointsDeVieMonstre = (3 * monstre.pointsDeForces()) / 4;
+    d_pointsDeVies += troisQuartsPointsDeVieMonstre;
 
-        std::cout << "Vous avez tué le monstre et récupéré des points !";
+    std::cout << "Vous avez tuï¿½ le monstre et rï¿½cupï¿½rï¿½ des points !";
 
-  }*/
+}*/

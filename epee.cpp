@@ -1,25 +1,31 @@
-
-#include <istream>
-#include <ostream>
-
 #include "epee.h"
 
 /**REDEFINTION EPEE*/
 
+epee::epee(int pointsDeSolidite) : equipement{pointsDeSolidite}
+{}
+
+/*int epee::pointsDeSolidite() const
+{
+    return d_pointsDeSolidite;
+}*/
+
+/*
 void epee::perdreSolidite()
- {
-        if (estValide())
+{
+    if (estValide())
     {
-        d_pointDeSolidite--;
+        d_pointsDeSolidite--;
     }
-}
+}*/
 
+/*
 int epee::attaqueAvecEpee() {
-        if (estValide())
-
-        {
-           perdreSolidite();
-            return pointDeSolidite();  // Retourne les points de solidité restants
-        }
-        return 0;
+    if (estValide())
+    {
+        perdreSolidite();
+        return pointsDeSolidite();  // Retourne les points de soliditï¿½ restants
     }
+    return 0;
+}
+*/

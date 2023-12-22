@@ -1,18 +1,20 @@
 #include "terrain.h"
 
-terrain::terrain(int x, int y) : tailleX(x), tailleY(y) {
-        initialiserTerrain();
-    }
+terrain::terrain(int x, int y) : tailleX(x), tailleY(y)
+{
+    initialiserTerrain();
+}
+
 
 /*void terrain::genererTerrain() {
-    // Initialisation de la graine pour la génération aléatoire
+    // Initialisation de la graine pour la gï¿½nï¿½ration alï¿½atoire
     srand(time(nullptr));
 
     // Remplissage du terrain avec des chemins libres ('.') et des murs ('#')
     for (int i = 0; i < tailleX; ++i) {
         for (int j = 0; j < tailleY; ++j) {
-            // Générer aléatoirement des murs avec une certaine probabilité
-            if (rand() % 100 < 30) { // Changer 30 pour modifier la densité des murs
+            // Gï¿½nï¿½rer alï¿½atoirement des murs avec une certaine probabilitï¿½
+            if (rand() % 100 < 30) { // Changer 30 pour modifier la densitï¿½ des murs
                 terr[i][j] = '#';
             } else {
                 terr[i][j] = '.'; // Chemin libre
@@ -20,21 +22,22 @@ terrain::terrain(int x, int y) : tailleX(x), tailleY(y) {
         }
     }
 }*/
-void terrain::initialiserTerrain() {
 
+void terrain::initialiserTerrain()
+{
     terr.resize(tailleX, std::vector<char>(tailleY, '.'));
     for (int i = 0; i < tailleX; ++i) {
         for (int j = 0; j < tailleY; ++j) {
             if (i == 0 || j == 0 || i == tailleX - 1 || j == tailleY - 1) {
-                terr[i][j] = '@'; // Cases inaccessibles à l'extérieur du château
+                terr[i][j] = '@'; // Cases inaccessibles ï¿½ l'extï¿½rieur du chï¿½teau
             } else {
-                terr[i][j] = '.'; // Cases par défaut
+                terr[i][j] = '.'; // Cases par dï¿½faut
                  //terr[i][j] = '#';
             }
         }
     }
 
-    // Placement des murs dans le château
+    // Placement des murs dans le chï¿½teau
     /*for (int i = 1; i < tailleX - 1; ++i) {
         for (int j = 1; j < tailleY - 1; ++j) {
                 terr[i][j] = '#';
@@ -44,49 +47,54 @@ void terrain::initialiserTerrain() {
 }
 
 
-void terrain::definirTerrain() {
-        std::cout << "Entrez la nouvelle taille X du terrain : ";
-        std::cin >> tailleX;
+void terrain::definirTerrain()
+{
+    std::cout << "Entrez la nouvelle taille X du terrain : ";
+    std::cin >> tailleX;
 
-        std::cout << "Entrez la nouvelle taille Y du terrain : ";
-        std::cin >> tailleY;
+    std::cout << "Entrez la nouvelle taille Y du terrain : ";
+    std::cin >> tailleY;
 
-        // Réinitialiser le terrain avec les nouvelles tailles
-        initialiserTerrain();
+    // Rï¿½initialiser le terrain avec les nouvelles tailles
+    initialiserTerrain();
 }
 
 
-void terrain::afficherTerrain() const{
-     for (int i = 0; i < tailleX; ++i) {
-            for (int j = 0; j < tailleY; ++j) {
-                std::cout << terr[i][j] << ' ';
-            }
-            std::cout << std::endl;
+void terrain::afficherTerrain() const
+{
+     for (int i = 0; i < tailleX; ++i)
+    {
+        for (int j = 0; j < tailleY; ++j)
+        {
+            std::cout << terr[i][j] << ' ';
         }
+        std::cout << std::endl;
+    }
 }
 
 /*void terrain::placerPersonnage(personnage& p, int x, int y) {
         terr[x][y] = 'P';
         p.seDeplace(x, y);
-         // 'P' représente le personnage sur la carte
+         // 'P' reprï¿½sente le personnage sur la carte
     }*/
 
-// Méthode pour placer un personnage sur le terrain
-void terrain::placerPersonnage(personnage& p, int x, int y) {
+// Mï¿½thode pour placer un personnage sur le terrain
+void terrain::placerPersonnage(personnage& p, int x, int y)
+{
+    /*cout<<"Entrer x"<<std::endl;
+    cin>>x;
+    cout<<"Entrer y"<<std::endl;
+    cin>>y;*/
 
-        /*cout<<"Entrer x"<<std::endl;
-        cin>>x;
-        cout<<"Entrer y"<<std::endl;
-        cin>>y;*/
-
-        terr [x][y] = 'P'; // 'P' représente un personnage sur le terrain
-        p.seDeplace(x, y);
+    terr [x][y] = 'P'; // 'P' reprï¿½sente un personnage sur le terrain
+    p.seDeplace(x, y);
 }
 
 
-    // Méthode pour déplacer un personnage sur le terrain
-void terrain::deplacerPersonnage(personnage& p, int x_new, int y_new) {
-        terr[p.x()][p.y()] = '.'; // Efface l'ancienne position
-        terr[x_new][y_new] = 'P'; // Nouvelle position du personnage
-        p.seDeplace(x_new, y_new);
+    // Mï¿½thode pour dï¿½placer un personnage sur le terrain
+void terrain::deplacerPersonnage(personnage& p, int x_new, int y_new)
+{
+    terr[p.x()][p.y()] = '.'; // Efface l'ancienne position
+    terr[x_new][y_new] = 'P'; // Nouvelle position du personnage
+    p.seDeplace(x_new, y_new);
 }

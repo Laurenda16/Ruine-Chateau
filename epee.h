@@ -1,24 +1,25 @@
 #ifndef EPEE_H
 #define EPEE_H
-#include <istream>
-#include <ostream>
+
 #include "equipement.h"
 
-/**la classe epe qui herite de la classe equipement*/
+/**la classe epee qui herite de la classe equipement*/
 
-class epee:public equipement{
-public:
-    epee(int pointDesolidite);
-    bool estValide() override;
-int pointDeSolidite() const override ;
+class epee : public equipement {
+    public:
+        epee(int pointsDeSolidite);
+        ~epee() = default;
 
-virtual void perdreSolidite() override;
+        //bool estValide() override;
+        //int pointsDeSolidite() const;
 
-int attaqueAvecEpee();
+        void perdreSolidite() override;
+        int attaqueAvecEpee();
 
-void affiche(std::ostream & ost) const;
-private:
-    int d_pointDeSolidite;
+        //void affiche(std::ostream & ost) const;
+
+    /*private:
+        int d_pointsDeSolidite;*/
 };
 
 #endif // EPEE_H

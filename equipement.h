@@ -1,31 +1,26 @@
 #ifndef EQUIPEMENTS_H
 #define EQUIPEMENTS_H
+
 #include <istream>
 #include <ostream>
 
-
 class equipement {
-public:
- equipement(int pointDeSolidite);
- ~equipement();
-virtual int pointDeSolidite() const ;
+    public:
+        equipement(int pointsDeSolidite);
+        virtual ~equipement() = default;
 
-virtual bool estValide();//tester s'il est valide
+        bool estValide();
+        int pointsDeSolidite() const;
+        virtual void perdreSolidite() = 0;
 
-virtual void perdreSolidite() = 0 ;
+    protected:
+        int d_pointsDeSolidite;
+};
 
-private:
-    int d_pointDeSolidite;
-    };
-
-
+#endif //EQUIPEMENT_H
 
 /**la classe epe qui herite de la classe equipement*/
-
-
-
 /*
->>>>>>> Lorris
 class epee:public equipement{
 public:
     epee(int pointDesolidite);
@@ -42,11 +37,7 @@ private:
 };
 
 
-<<<<<<< HEAD
-/**la classe armure qui herite de la classe equipement*/
-
 /**la classe armure qui herite de la classe equipement
->>>>>>> Lorris
 
 
 class armure: public equipement
@@ -60,9 +51,5 @@ public:
     void affiche(std::ostream & ost) const ;
 private:
     int d_pointDeSolidite;
-<<<<<<< HEAD
 };
-=======
-};*/
-
-#endif //EQUIPEMENT_H
+#endif //EQUIPEMENT_H*/

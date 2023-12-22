@@ -3,9 +3,9 @@
 
 #include "personnage.h"
 #include "equipement.h"
-
 #include "epee.h"
 #include "armure.h"
+#include "terrain.h"
 
 class personnage;
 class equipement;
@@ -13,28 +13,18 @@ class equipement;
 class aventurier : public personnage
 {
 public:
+    aventurier(int pointsDeVie, int pointsDeForce, int x, int y, const epee& ep, const armure& arm); //fait
 
-    aventurier(int pointsDeVie, int pointsDeForce,const epee& ep, const armure& arm); //fait
-   /* void seDeplace (personnage& p) const override; //deplacmenet
-    void attaque(personnage& monstres) const override;
-    void recoitAttaque(int degats) const override;
+    void seDeplace(int x_new, int y_new) override; //deplacement
+    void attaque(personnage& monstre) override;
+    void recoitAttaque(int pointsDeForce) override;
 
-    //aventurier(int pointsDeVie, int pointsDeForce,const epee& ep, const armure& arm); //fait
-    void seDeplace(int x_new, int y_new) override; //deplacmenet
-    void attaque(personnage& monstres) override;
-    void recoitAttaque(int degats) override;
-
-
-    void recuperPointDeForce(const personnage& monstre);
+    void recuperePointsDeForce(const personnage& monstre);
     /*void ramasse();*/
-    bool estmort() ;
+    bool estMort() ;
 
 private:
-
-   epee d_ep;
-
-
-
+    epee d_ep;
     armure d_arm;
    // int d_boursePiece;*/
 };

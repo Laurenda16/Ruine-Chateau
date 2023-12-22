@@ -1,33 +1,39 @@
-
-#include <istream>
-#include <ostream>
-
 #include "armure.h"
 
 /**REDEFINITION  ARMURE*/
+/**
+armure::armure(int pointsDeSolidite) : equipement{pointsDeSolidite}
+{}
+
 /*
- void armure::recevoirAttagueAvecAmure(int degats)
- {
-     if (estValide())
-        {
-            armure.perdreSolidite(pointsDeForce);
-            std::cout << "L'armure a absorbé une partie de l'attaque." << std::endl;
-        } else {
-            // L'armure est cassée, l'attaque affecte directement la personne
-            // TODO: Gérer les points de vie de la personne ici
-            std::cout << "L'armure est cassée. L'attaque affecte directement la personne." << std::endl;
-        }
- }*/
-/*
-void perdreSolidite()
+void armure::perdreSolidite()
 {
-        if (estValide())
-            {
-    // Réduire la solidité de l'armure en fonction des points de force de l'attaque
-        pointsDeSolidite -= pointsDeForce / 2;
-        if (pointDeSolidite < 0) {
-        pointDeSolidite = 0;
-                }
-            }
+    if (estValide())
+    {
+        // Rï¿½duire la soliditï¿½ de l'armure en fonction des points de force de l'attaque
+        //pointsDeSolidite -= pointsDeForce / 2;
+        if (d_pointsDeSolidite < 0)
+        {
+            d_pointsDeSolidite = 0;
         }
-*/
+    }
+}*/
+
+/**
+int armure::absorberPointsDeForce(int pointsDeForce)
+{
+    // 3/4 des points de force sont absorbï¿½s par l'armure
+    int pointsAbsorbes = (3 * pointsDeForce) / 4;
+
+    if (estValide())
+    {
+        perdreSolidite();
+        std::cout << "L'armure a absorbï¿½ une partie de l'attaque." << std::endl;
+    } else {
+        // L'armure est cassï¿½e, l'attaque affecte directement la personne
+        // TODO: Gï¿½rer les points de vie de la personne ici
+        std::cout << "L'armure est cassï¿½e. L'attaque affecte directement la personne." << std::endl;
+    }
+    return pointsAbsorbes;
+}
+**/
