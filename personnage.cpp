@@ -43,4 +43,20 @@ int personnage::baissePointsDeForce(int pointsDeForce)
     }
 }
 
+// Définition pour obtenir une chaîne de caractères du type de personnage
+std::string getTypeString(TypePersonnage type) {
+    switch (type) {
+        case TypePersonnage::aventurier:
+            return "Aventurier";
+        case TypePersonnage::monstre:
+            return "Monstre";
+        case TypePersonnage::monstreAveugle:
+            return "Monstre Aveugle";
+        case TypePersonnage::monstreVoyant:
+            return "Monstre Voyant";
+
+        default:
+            return "Personnage";
+    }
+}
 

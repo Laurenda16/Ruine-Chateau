@@ -17,6 +17,7 @@ public:
  void placerPersonnage(personnage& p, int x, int y);
  void deplacerPersonnage(personnage& p, int x_new, int y_new);
 
+
 private:
 std::vector<std::vector<char>> terr;
 int tailleX, tailleY; // Taille en largeur X et hauteur Y du terrain

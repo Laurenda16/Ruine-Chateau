@@ -30,6 +30,13 @@ protected:
 
 };
 
+enum class TypePersonnage {
+    aventurier,
+    monstre,
+    monstreAveugle,
+    monstreVoyant
+
+};
 
 
 

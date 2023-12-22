@@ -9,7 +9,7 @@ class equipement;
 
 class aventurier : public personnage {
 public:
-    aventurier(int pointsDeVie, int pointsDeForce, /*const bourse& b,*/ const epe& ep, const armure& arm);
+    aventurier(int pointsDeVie, int pointsDeForce, int x, int y, /*const bourse& b,*/ const epe& ep, const armure& arm);
     void seDeplace (int x_new, int y_new) override;
     void attaque(personnage& p) override;
     void recoitAttaque(int pointsDeForce) override;
